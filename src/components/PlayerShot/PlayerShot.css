@@ -1,0 +1,16 @@
+.shot {
+  position: relative;
+  left: 295px;
+  top: 630px;
+  animation: fire 1s linear;
+  transform: translateY(-100vh);
+}
+
+@keyframes fire {
+  from {
+      transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}

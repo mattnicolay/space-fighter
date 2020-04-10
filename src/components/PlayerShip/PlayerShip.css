@@ -1,0 +1,6 @@
+.ship {
+    position: relative;
+    top: 650px;
+    left: 340px;
+    transition: transform 100ms linear;
+}
